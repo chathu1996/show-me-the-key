@@ -1,0 +1,43 @@
+*{
+    margin: 0pcx;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Bowlboy One SC', cursive;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 3em;
+}
+
+.letter{
+    padding: 30px;
+    font-size: 5em;
+    color: #fff;
+    background-color: blueviolet;
+    display: inline-block;
+    margin-top: 80px;
+    animation-name: anim;
+    border-radius: 20px;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim{
+    0%{
+        opacity: 1;
+        transform: scale(0.5);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(4);
+    }
+}
